@@ -15,14 +15,15 @@ server.get('/buscar-filme', (req, res) => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="/styles.css">
             <title>Buscar Filme</title>
+            <link rel="shortcut icon" type="imagex/png" href="/filme.png">
         </head>
         <body>
             <div class="container">
-                <h1>Buscar Filme</h1>
+                <h1>Buscar Filmes e Séries</h1>
                 <form action="/filmes" method="get">
                     <label for="filmeId">Digite o ID do filme:</label>
                     <input type="text" id="filmeId" name="id" required>
-                    <button type="submit">Buscar Filme</button>
+                    <button type="submit">Buscar Filmes e Séries</button>
                 </form>
             </div>
         </body>
